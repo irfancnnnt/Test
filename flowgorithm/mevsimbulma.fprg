@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="irfan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-06 11:56:52 &#214;&#214;"/>
+        <attribute name="created" value="aXJmYW47REVTS1RPUC0yUUdTMkdMOzIwMjQtMDgtMDY7MTE6MzM6NDQgw5bDljszMTQ2"/>
+        <attribute name="edited" value="aXJmYW47REVTS1RPUC0yUUdTMkdMOzIwMjQtMDgtMDY7MTE6NTY6NTIgw5bDljsxOzMyNTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ay" type="Integer" array="False" size=""/>
+            <output expression="&quot; kacinci aydasiniz&quot;" newline="True"/>
+            <input variable="ay"/>
+            <if expression="ay&gt;0 &amp;&amp; ay&lt;13">
+                <then>
+                    <if expression="ay=12 or ay=1 or ay =2">
+                        <then>
+                            <output expression="&quot;kis&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="ay=3 or ay=3 or ay =5">
+                                <then>
+                                    <output expression="&quot;ilkbahar&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="ay=6 or ay=7 or ay =8">
+                                        <then>
+                                            <output expression="&quot;yaz&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="ay=9 or ay=10 or ay =11">
+                                                <then>
+                                                    <output expression="&quot;ilkbahar&quot;" newline="True"/>
+                                                </then>
+                                                <else/>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;gecersiz sayi&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

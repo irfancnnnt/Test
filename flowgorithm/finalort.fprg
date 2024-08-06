@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="irfan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-06 11:32:52 &#214;&#214;"/>
+        <attribute name="created" value="aXJmYW47REVTS1RPUC0yUUdTMkdMOzIwMjQtMDgtMDY7MTA6NTU6NTUgw5bDljszMTUx"/>
+        <attribute name="edited" value="aXJmYW47REVTS1RPUC0yUUdTMkdMOzIwMjQtMDgtMDY7MTE6MzI6NTIgw5bDljsxOzMyNTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="vize1, vize2, final, ortalama" type="Integer" array="False" size=""/>
+            <output expression="&quot;vize1 i giriniz&quot;" newline="True"/>
+            <input variable="vize1"/>
+            <output expression="&quot;vize2 yi giriniz&quot;" newline="True"/>
+            <input variable="vize2"/>
+            <output expression="&quot;finali giriniz&quot;" newline="True"/>
+            <input variable="final"/>
+            <assign variable="ortalama" expression="((vize1+vize2)/2)*0.3+final*0.7"/>
+            <if expression="ortalama&gt;=50">
+                <then>
+                    <output expression="&quot;ortalama :&quot;&amp;ortalama&amp;&quot;dersi gectiniz&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;ortalama :&quot;&amp;ortalama&amp;&quot;dersten kaldiniz&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

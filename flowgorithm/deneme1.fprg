@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="irfan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-06 10:55:52 &#214;&#214;"/>
+        <attribute name="created" value="aXJmYW47REVTS1RPUC0yUUdTMkdMOzIwMjQtMDgtMDY7MDk6MjI6MzAgw5bDljszMTQ2"/>
+        <attribute name="edited" value="aXJmYW47REVTS1RPUC0yUUdTMkdMOzIwMjQtMDgtMDY7MTA6NTU6NTIgw5bDljsxOzMyNTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="kenar1, kenar2, cevre, alan" type="Integer" array="False" size=""/>
+            <input variable="kenar1"/>
+            <input variable="kenar2"/>
+            <assign variable="cevre" expression="2*kenar1+2*kenar2"/>
+            <assign variable="alan" expression="kenar1*kenar2"/>
+            <output expression="&quot;alan =&quot;&amp;alan" newline="True"/>
+            <output expression="&quot;cevre =&quot;&amp;cevre" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
