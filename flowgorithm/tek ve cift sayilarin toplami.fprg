@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="irfan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-07 11:46:21 &#214;&#214;"/>
+        <attribute name="created" value="aXJmYW47REVTS1RPUC0yUUdTMkdMOzIwMjQtMDgtMDc7MDg6NDI6MDggw5bDljszMTUz"/>
+        <attribute name="edited" value="aXJmYW47REVTS1RPUC0yUUdTMkdMOzIwMjQtMDgtMDc7MTE6NDY6MjEgw5bDljsxOzMyNTQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="say, tek, tektoplam, cift, cifttoplam, index" type="Integer" array="False" size=""/>
+            <declare name="sayilar" type="Integer" array="True" size="50"/>
+            <assign variable="cift" expression="0"/>
+            <assign variable="tek" expression="0"/>
+            <assign variable="tektoplam" expression="0"/>
+            <assign variable="cifttoplam" expression="0"/>
+            <for variable="index" start="0" end="49" direction="inc" step="1">
+                <assign variable="sayilar[index]" expression="Random(100)+1"/>
+                <if expression="sayilar[index]%2=0">
+                    <then>
+                        <assign variable="cift" expression="cift+1"/>
+                        <assign variable="cifttoplam" expression="cifttoplam+sayilar[index]"/>
+                    </then>
+                    <else>
+                        <assign variable="tek" expression="tek+1"/>
+                        <assign variable="tektoplam" expression="tektoplam+sayilar[index]"/>
+                    </else>
+                </if>
+            </for>
+            <output expression="&quot;tek sayisi :&quot;&amp;tek" newline="True"/>
+            <output expression="&quot;cift sayisi :&quot;&amp;cift" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
