@@ -1,0 +1,15 @@
+c:\Users\irfan\source\repos\IstkaFullData\Test\Fundamental\DegiskenTanimlama\bin\Debug\net8.0\DegiskenTanimlama.exe
+C:\Users\irfan\source\repos\IstkaFullData\Test\Fundamental\DegiskenTanimlama\bin\Debug\net8.0\DegiskenTanimlama.deps.json
+C:\Users\irfan\source\repos\IstkaFullData\Test\Fundamental\DegiskenTanimlama\bin\Debug\net8.0\DegiskenTanimlama.runtimeconfig.json
+c:\Users\irfan\source\repos\IstkaFullData\Test\Fundamental\DegiskenTanimlama\bin\Debug\net8.0\DegiskenTanimlama.dll
+c:\Users\irfan\source\repos\IstkaFullData\Test\Fundamental\DegiskenTanimlama\bin\Debug\net8.0\DegiskenTanimlama.pdb
+c:\Users\irfan\source\repos\IstkaFullData\Test\Fundamental\DegiskenTanimlama\obj\Debug\net8.0\DegiskenTanimlama.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\irfan\source\repos\IstkaFullData\Test\Fundamental\DegiskenTanimlama\obj\Debug\net8.0\DegiskenTanimlama.AssemblyInfoInputs.cache
+c:\Users\irfan\source\repos\IstkaFullData\Test\Fundamental\DegiskenTanimlama\obj\Debug\net8.0\DegiskenTanimlama.AssemblyInfo.cs
+c:\Users\irfan\source\repos\IstkaFullData\Test\Fundamental\DegiskenTanimlama\obj\Debug\net8.0\DegiskenTanimlama.csproj.CoreCompileInputs.cache
+c:\Users\irfan\source\repos\IstkaFullData\Test\Fundamental\DegiskenTanimlama\obj\Debug\net8.0\DegiskenTanimlama.sourcelink.json
+c:\Users\irfan\source\repos\IstkaFullData\Test\Fundamental\DegiskenTanimlama\obj\Debug\net8.0\DegiskenTanimlama.dll
+c:\Users\irfan\source\repos\IstkaFullData\Test\Fundamental\DegiskenTanimlama\obj\Debug\net8.0\refint\DegiskenTanimlama.dll
+c:\Users\irfan\source\repos\IstkaFullData\Test\Fundamental\DegiskenTanimlama\obj\Debug\net8.0\DegiskenTanimlama.pdb
+C:\Users\irfan\source\repos\IstkaFullData\Test\Fundamental\DegiskenTanimlama\obj\Debug\net8.0\DegiskenTanimlama.genruntimeconfig.cache
+C:\Users\irfan\source\repos\IstkaFullData\Test\Fundamental\DegiskenTanimlama\obj\Debug\net8.0\ref\DegiskenTanimlama.dll
